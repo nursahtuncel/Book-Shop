@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yazılım Mektebi | Kitap Mağazası</title>
+    <title>Kitap Mağazası</title>
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -69,56 +69,14 @@
     <section class="store mt-5">
       <div class="filter_background"></div>
       <ul class="filter">
-  <li class="active">Tümü</li>
-  <li>ROMAN</li>
-  <li>Kişisel Gelişim</li>
-  <li>Fantastik</li>
-</ul>
-      
+        <li class="active">Tümü</li>
+        <li>ROMAN</li>
+        <li>Kişisel Gelişim</li>
+        <li>Fantastik</li>
+      </ul>
 
-    
       <div class="row book_list book_card">
         <div class="col-5 mt-5 offset-2">
-          <div class="row book_card ">
-            <div class="col-6">
-              <img
-                class="img-fluid shadow"
-                src="./assets/images/books/nutuk.jpg"
-                alt="" />
-            </div>
-
-            <div class="col-6">
-              <div class="book_detail">
-                <span class="fos gray fs-5">Mustafa Kemal Atatürk</span>
-                <br />
-                <span class="fs-4 fw-bold">Nutuk</span>
-                <br />
-                <span class="book_star_rate"><i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-              
-                <span class="gray">250 reviews</span>
-              </div>
-
-              
-                <p class="book_description fos gray">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum blanditiis impedit in exercitationem molestiae perspiciatis enim, rerum voluptatum! Praesentium magni accusantium eveniet id, sapiente culpa numquam! Dignissimos consectetur quae deleniti?*10
-                </p>
-             
-                
-              <div>
-                <span class="black fs-5 fw-bold">45$</span>
-                <span class="gray fs-5 text-decoration-line-through">65$</span>
-              </div>
-              <button class="btn_purple">ADD BASKET</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-5 mt-5">
-
           <div class="row book_card">
             <div class="col-6">
               <img
@@ -126,204 +84,38 @@
                 src="./assets/images/books/nutuk.jpg"
                 alt="" />
             </div>
-
-            <div class="col-6">
-              <div class="book_detail">
-                <span class="fos gray fs-5">Mustafa Kemal Atatürk</span>
-                <br />
-                <span class="fs-4 fw-bold">Nutuk</span>
-                <br />
-                <span class="book_star_rate"><i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-                  <i class="bi bi-star-fill"></i>
-              
-                <span class="gray">250 reviews</span>
-              </div>
-
-              
-                <p class="book_description fos gray">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum blanditiis impedit in exercitationem molestiae perspiciatis enim, rerum voluptatum! Praesentium magni accusantium eveniet id, sapiente culpa numquam! Dignissimos consectetur quae deleniti?*10
-                </p>
-             
-                
-              <div>
-                <span class="black fs-5 fw-bold">45$</span>
-                <span class="gray fs-5 text-decoration-line-through">65$</span>
-              </div>
-              <button class="btn_purple">ADD BASKET</button>
-            </div>
           </div>
         </div>
       </div>
-  
-      
     </section>
     <div class="basket_modal" onclick="toggleModal">
       <div class="basket_items">
-<i class="bi bi-x" onclick="toggleModal()"></i>
-<h1 class="basket_title">your items</h1>
-<ul class="basket_list">
-  <li class="basket_item">
-    <img src="./assets/images/books/nutuk.jpg" width="100" height="100" alt="">
-    <div>
-    <div class="basket_item_info">
-<div>
-            <h3 class="book_name">nutuk</h3>
-            <span class="fs-5 book_price">45$</span> <br>
-            <span class="book_remove">remove</span>
-</div>
+        <i class="bi bi-x" onclick="toggleModal()"></i>
+        <h1 class="basket_title">your items</h1>
+        <ul class="basket_list">
+          <li class="basket_item">
+            <img
+              src="./assets/images/books/nutuk.jpg"
+              width="100"
+              height="100"
+              alt="" />
+            <div>
+              <div class="basket_item_info">
+                <div>
+                  <h3 class="book_name">nutuk</h3>
+                  <span class="fs-5 book_price">45$</span> <br />
+                  <span class="book_remove">remove</span>
+                </div>
 
-  <div class="book_count">
-        <span class="decrease">-</span>
-        <span class="my-2">2</span>
-        <span class="increase">+</span>
- </div> 
-</div>
-  </li>
-  <li class="basket_item">
-    <img src="./assets/images/books/nutuk.jpg" width="100" height="100" alt="">
-    <div>
-    <div class="basket_item_info">
-<div>
-            <h3 class="book_name">nutuk</h3>
-            <span class="fs-5 book_price">45$</span> <br>
-            <span class="book_remove">remove</span>
-</div>
-
-  <div class="book_count">
-        <span class="decrease">-</span>
-        <span class="my-2">2</span>
-        <span class="increase">+</span>
- </div> 
-</div>
-  </li>
-  <li class="basket_item">
-    <img src="./assets/images/books/nutuk.jpg" width="100" height="100" alt="">
-    <div>
-    <div class="basket_item_info">
-<div>
-            <h3 class="book_name">nutuk</h3>
-            <span class="fs-5 book_price">45$</span> <br>
-            <span class="book_remove">remove</span>
-</div>
-
-  <div class="book_count">
-        <span class="decrease">-</span>
-        <span class="my-2">2</span>
-        <span class="increase">+</span>
- </div> 
-</div>
-  </li>
-  <li class="basket_item">
-    <img src="./assets/images/books/nutuk.jpg" width="100" height="100" alt="">
-    <div>
-    <div class="basket_item_info">
-<div>
-            <h3 class="book_name">nutuk</h3>
-            <span class="fs-5 book_price">45$</span> <br>
-            <span class="book_remove">remove</span>
-</div>
-
-  <div class="book_count">
-        <span class="decrease">-</span>
-        <span class="my-2">2</span>
-        <span class="increase">+</span>
- </div> 
-</div>
-  </li>
-  <li class="basket_item">
-    <img src="./assets/images/books/nutuk.jpg" width="100" height="100" alt="">
-    <div>
-    <div class="basket_item_info">
-<div>
-            <h3 class="book_name">nutuk</h3>
-            <span class="fs-5 book_price">45$</span> <br>
-            <span class="book_remove">remove</span>
-</div>
-
-  <div class="book_count">
-        <span class="decrease">-</span>
-        <span class="my-2">2</span>
-        <span class="increase">+</span>
- </div> 
-</div>
-  </li>
-  <li class="basket_item">
-    <img src="./assets/images/books/nutuk.jpg" width="100" height="100" alt="">
-    <div>
-    <div class="basket_item_info">
-<div>
-            <h3 class="book_name">nutuk</h3>
-            <span class="fs-5 book_price">45$</span> <br>
-            <span class="book_remove">remove</span>
-</div>
-
-  <div class="book_count">
-        <span class="decrease">-</span>
-        <span class="my-2">2</span>
-        <span class="increase">+</span>
- </div> 
-</div>
-  </li>
-  <li class="basket_item">
-    <img src="./assets/images/books/nutuk.jpg" width="100" height="100" alt="">
-    <div>
-    <div class="basket_item_info">
-<div>
-            <h3 class="book_name">nutuk</h3>
-            <span class="fs-5 book_price">45$</span> <br>
-            <span class="book_remove">remove</span>
-</div>
-
-  <div class="book_count">
-        <span class="decrease">-</span>
-        <span class="my-2">2</span>
-        <span class="increase">+</span>
- </div> 
-</div>
-  </li>
-  <li class="basket_item">
-    <img src="./assets/images/books/nutuk.jpg" width="100" height="100" alt="">
-    <div>
-    <div class="basket_item_info">
-<div>
-            <h3 class="book_name">nutuk</h3>
-            <span class="fs-5 book_price">45$</span> <br>
-            <span class="book_remove">remove</span>
-</div>
-
-  <div class="book_count">
-        <span class="decrease">-</span>
-        <span class="my-2">2</span>
-        <span class="increase">+</span>
- </div> 
-</div>
-  </li>
-  <li class="basket_item">
-    <img src="./assets/images/books/nutuk.jpg" width="100" height="100" alt="">
-    <div>
-    <div class="basket_item_info">
-<div>
-            <h3 class="book_name">nutuk</h3>
-            <span class="fs-5 book_price">45$</span> <br>
-            <span class="book_remove">remove</span>
-</div>
-
-  <div class="book_count">
-        <span class="decrease">-</span>
-        <span class="my-2">2</span>
-        <span class="increase">+</span>
- </div> 
-</div>
-  </li>
-</ul>
-<div class="basket_total">
-  <span class="fw-bold mb-3 fs-4">Total : 145$</span>
-  <button class="btn_purple">CHECKOUT</button>
-</div>
- </div>
+                <div class="book_count">
+                  <span class="decrease">-</span>
+                  <span class="my-2">2</span>
+                  <span class="increase">+</span>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
     <script
